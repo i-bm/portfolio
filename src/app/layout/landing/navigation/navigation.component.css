@@ -1,0 +1,16 @@
+
+
+nav{
+  padding:0px;
+  font-family: Product Sans Regular,Segoe UI,system-ui,-apple-system,sans-serif;;
+  font-size: 1.1rem;
+}
+.navbar .nav-link{
+  color:#585b63;
+  padding: 1.5em 1.5rem;
+  /* font */
+}
+
+.navbar .nav-link:hover{
+background-color: #f8f9fa;
+}

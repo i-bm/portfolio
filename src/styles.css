@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url('assets/fonts/fonts.css');
+
+body{
+  background-color: #F8F9FA;
+  font-family: 'Product Sans Regular';
+  overflow: hidden;
+}
+
+.profile{
+  margin-top: 3%;
+
+}
+.profile img{
+  max-width: 192px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile h3{
+  font-size: clamp(1.5rem, 1.29rem + 1.07vw, 2.25rem);
+  margin-top: 1rem;
+}
+
+.profile p{
+  color:#585b63;
+  margin-top: 1rem;
+  line-height: 31px;
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.blog-section{
+  background-color: #fff;
+  border-top: 1px solid #d2d3d7;
+  margin-top: 3%;
+  height: 400px;
+}
