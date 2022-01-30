@@ -1,0 +1,51 @@
+<app-navigation></app-navigation>
+
+<main class="container">
+  <div class="row mt-4">
+    <div class="col-lg-8 ">
+      <div class="blog-content">
+        <article class="blog-post1">
+          <h5 class="blog-post-meta d-flex ">&nbsp;<span></span>&nbsp;
+            &nbsp;<span>Aug 9, 2022 &nbsp;&nbsp;</span>
+          </h5>
+          <a href="#">
+            <h4 class="blog-post-title">How to Use Java Streams Explained.</h4>
+          </a>
+
+          <p>Streams are Java’s way of integrating functional programming with its object-oriented style. There are a
+            lot
+            of benefits to using streams in Java, such as the ability to write functions at a more abstract level which
+            can reduce code bugs, compact functions into fewer and more readable lines of code, and the ease they offer
+            for parallelization.</p>
+
+          <p>Java streams are fairly well known but not everyone knows how to take full
+            advantage of
+            their benefits, including the finer points of making streams, intermediate operations, and terminal
+            operations. </p>
+          <p>In this blog we’re going to use a simple example to explain how Java streams work, which will
+            result in less verbose, more intuitive, and less error prone code. </p>
+
+          <h4>An Example of How Java Streams Work</h4>
+          <p>The simplest way to think of Java streams, and the way that helps me the most, is imagining a list of
+            objects that are disconnected from each other, entering a pipeline one at a time. </p>
+          <p>You can control how many
+            of these objects enter the pipeline, what you do to these objects inside of the pipeline, and how you catch
+            these objects as they exit the pipeline. Streams are much easier to learn by looking at the big picture
+            first and then breaking it down.</p>
+          <p> To do so, let’s make a program that takes a certain number of multiples of
+            four, squares each of them, then takes the sum of all of the squares that are not divisible by ten: </p>
+          <p>Even if you don’t know how streams work in Java, there’s a very good chance you were able to quickly figure
+            out what the code above is doing. Apart from the first line <i>(Stream.iterate(4, multipleOfFour ->
+              multipleOfFour + 4))</i>, the rest of the code almost reads like a set of instructions.
+
+            Let’s take this one piece at a time.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="col-lg-4 d-none d-md-block d-lg-block">
+      <app-sidebar></app-sidebar>
+    </div>
+  </div>
+
+</main>
